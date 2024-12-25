@@ -64,7 +64,7 @@ const config: Config = {
       title: 'ComputerScience-Wiki',
       logo: {
         alt: 'ComputerScience-Wiki Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
