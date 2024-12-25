@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ComputerScience',
-  tagline: 'Hello World',
+  tagline: '',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
   baseUrl: '/website/',
