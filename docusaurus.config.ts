@@ -57,25 +57,25 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'bigdata-databases',
+          sidebarId: 'bigdata_databases',
           position: 'left',
           label: 'Big Data & Databases',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'cloud-infrastructure',
+          sidebarId: 'cloud_infrastructure',
           position: 'left',
           label: 'Cloud & IT Infrastructure',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'cyber-security',
+          sidebarId: 'cyber_security',
           position: 'left',
           label: 'Cyber Security',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'datascience-analytics',
+          sidebarId: 'datascience_analytics',
           position: 'left',
           label: 'Data Science & Analytics',
         },
