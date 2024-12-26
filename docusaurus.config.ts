@@ -35,21 +35,6 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -61,23 +46,44 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      hideOnScroll: true,
       title: 'ComputerScience-Wiki',
       logo: {
         alt: 'ComputerScience-Wiki Logo',
         src: 'img/logo.png',
+        width: 32,
+        height: 32,
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'bigdata-databases',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Big Data & Databases',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/ComputerScience-Wiki/computerscience-wiki.github.io',
-          label: 'GitHub',
-          position: 'right',
+          type: 'docSidebar',
+          sidebarId: 'cloud-infrastructure',
+          position: 'left',
+          label: 'Cloud & IT Infrastructure',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cyber-security',
+          position: 'left',
+          label: 'Cyber Security',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'datascience-analytics',
+          position: 'left',
+          label: 'Data Science & Analytics',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'development',
+          position: 'left',
+          label: 'Development',
         },
       ],
     },
@@ -88,8 +94,24 @@ const config: Config = {
           title: 'Wiki',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Big Data & Databases',
+              to: '/docs/bigdata-databases/introduction',
+            },
+            {
+              label: 'Cloud & IT Infrastructure',
+              to: '/docs/cloud-infrastructure/introduction',
+            },
+            {
+              label: 'Cyber Security',
+              to: '/docs/cyber-security/introduction',
+            },
+            {
+              label: 'Data Science & Analytics',
+              to: '/docs/datascience-analytics/introduction',
+            },
+            {
+              label: 'Development',
+              to: '/docs/development/introduction',
             },
           ],
         },
