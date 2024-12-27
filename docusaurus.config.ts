@@ -85,6 +85,12 @@ const config: Config = {
           position: 'left',
           label: 'Development',
         },
+        {
+          href: 'https://github.com/ComputerScience-Wiki/computerscience-wiki.github.io',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
@@ -120,7 +126,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ComputerScience-Wiki/computerscience-wiki.github.io',
             },
           ],
         },
